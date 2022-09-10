@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Nunito-Sans";
+    src: url("../fonts/NunitoSans-Regular.ttf") format("ttf");
+    font-weight: 400;
+}
+
+/* @font-face {
+    font-family: "Nunito-Sans";
+    src: url("../fonts/NunitoSans-Bold.ttf") format("ttf");
+    font-weight: bold;
+} */
+
+@font-face {
+    font-family: "Yeseva-One";
+    src: url("../fonts/YesevaOne-Regular.ttf") format("ttf");
+}
+
+* {
+    font-family: "Nunito-Sans", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,
+h2 {
+    font-family: "Yeseva-One";
+    color: #fff;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+
+.header {
+    background: #131313;
+}
+
+.header .container {
+    padding: 24px 90px;
+}
+
+.logo a {
+    color: #e3b873;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__item {
+    padding-right: 45px;
+}
+
+.menu__item:last-child {
+    padding-right: 0;
+}
+
+.menu__item:hover {
+    color: #e3b873;
+}
+
+.phone__container {
+    display: flex;
+    align-items: center;
+}
+
+.phone__number {
+    text-decoration: underline;
+    color: #e3b873;
+    margin-right: 45px;
+}
+
+.button {
+    background: #e3b873;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.button-phone {
+    padding: 13px 33px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: rgb(190, 136, 48);
+}
+
+/* main */
+
+.banner {
+    background: url("../img/bg-banner.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner .container {
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    padding: 194px 0 204px 134px;
+}
+
+.banner__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 676px;
+}
+
+.banner__title {
+    font-size: 40px;
+    line-height: 53px;
+    max-width: 524px;
+    text-transform: uppercase;
+}
+
+.banner__text {
+    font-size: 22px;
+    line-height: 36px;
+    color: #fff;
+    max-width: 524px;
+}
+
+.banner__buttons {
+    display: flex;
+}
+
+.button-calculate {
+    padding: 19px 42px;
+    margin-right: 20px;
+}
+
+.button-submit {
+    background: none;
+    box-shadow: none;
+    border: 1px solid #fff;
+    padding: 19px 22px;
+}
+
+.button-submit:hover {
+    background: rgba(0, 0, 0, 0.4);
+    
+}
