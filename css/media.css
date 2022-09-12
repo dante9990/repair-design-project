@@ -1,0 +1,55 @@
+@media (max-width: 1300px) {
+    .container {
+        width: 100%;
+    }
+
+    .menu {
+        display: none;
+    }
+    .button-phone {
+        display: none;
+    }
+    .header .container {
+        padding: 24px 18px;
+    }
+    .phone__number {
+        text-decoration: none;
+        color: #fff;
+        margin-right: 0;
+    }
+    .banner {
+        background-size: cover;
+        background-position: 55% 50%;
+    }
+
+    .banner .container {
+        padding: 85px 18px 61px 18px;
+    }
+    .banner__title {
+        font-size: 23px;
+        line-height: 31px;
+    }
+    .banner__text {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 16px;
+    }
+    .banner__buttons {
+        margin-top: 32px;
+        flex-direction: column;
+    }
+    .button-calculate {
+        padding: 19px 70px;
+        margin-right: 0;
+    }
+    
+    .button-submit {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width:1440px) {
+    .container {
+        width: 100%;
+    }
+}
