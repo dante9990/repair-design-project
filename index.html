@@ -86,14 +86,20 @@
                         </div>
                         <div class="slide__photo">
                             <ul class="slide__list">
-                                <li class="slide__list__item cheked">
-                                    <h3 class="slide__list__title">Rostov-on-Don, Admiral</h3>
+                                <li class="slide__list__item">
+                                    <a href="#">
+                                        <h3 class="slide__list__title">Rostov-on-Don, Admiral</h3>
+                                    </a>
                                 </li>
                                 <li class="slide__list__item">
-                                    <h3 class="slide__list__title">Sochi Thieves</h3>
+                                    <a href="#">
+                                        <h3 class="slide__list__title">Sochi Thieves</h3>
+                                    </a>
                                 </li>
                                 <li class="slide__list__item">
-                                    <h3 class="slide__list__title">Rostov-on-Don Patriotic</h3>
+                                    <a href="#">
+                                        <h3 class="slide__list__title">Rostov-on-Don Patriotic</h3>
+                                    </a>
                                 </li>
                             </ul>
                             <img src="./img/rostov-na-donu.png" alt="Rostov-on-Don, Admiral" class="slide__img">
@@ -102,7 +108,7 @@
                     <div class="slider__nav">
                         <button class="arrow arrow__left"></button>
                         <div class="radio__container">
-                            <input class="slider__radio" type="radio" name="1" id="s1">
+                            <input class="slider__radio" type="radio" name="1" id="s1" checked>
                             <label for="s1" class="slider__label"></label>
                             <input class="slider__radio" type="radio" name="1" id="s2">
                             <label for="s2" class="slider__label"></label>
@@ -119,7 +125,7 @@
                 <h2 class="video__title">online control</h2>
                 <div class="icon">
                     <div class="line line-small"></div>
-                    <div class="icon__camera"></div>
+                    <div class="svg camera"></div>
                     <div class="line line-small"></div>
                 </div>
                 <img src="./img/video.png" alt="Видео" class="videoplayer">
@@ -160,7 +166,7 @@
                 <h2 class="cards__title">TYPES OF REPAIR</h2>
                 <div class="icon">
                     <div class="line line-small"></div>
-                    <div class="icon__repair"></div>
+                    <div class="svg repair"></div>
                     <div class="line line-small"></div>
                 </div>
                 <div class="cards__container">
@@ -215,7 +221,257 @@
                 </div>
             </div>
         </section>
+        <section class="measurer">
+            <div class="container">
+                <div class="steps">
+                    <div class="step">
+                        <h4 class="step__title">01</h4>
+                        <p class="step__text">Our specialist will arrive for measurements per day
+                            contact, or appoint a date convenient for you</p>
+                    </div>
+                    <div class="step">
+                        <h4 class="step__title">02</h4>
+                        <p class="step__text">Free metering</p>
+                    </div>
+                    <div class="step">
+                        <h4 class="step__title">03</h4>
+                        <p class="step__text">Free consultation</p>
+                    </div>
+                    <div class="step">
+                        <h4 class="step__title">04</h4>
+                        <p class="step__text">Get a cost estimate and <br>
+                            the timing of your future repairs</p>
+                    </div>
+                </div>
+                <div class="measurer__form">
+                    <p class="measurer__text">
+                        Leave a request for free <br>
+                        departure of the measurer
+                    </p>
+                    <form action="get" class="form">
+                        <div class="input__container">
+                            <label for="name-m" class="form__label">Name</label>
+                            <input type="text" class="form__input" id="name-m" placeholder="What is your name:">
+                        </div>
+                        <div class="input__container">
+                            <label for="phone-m" class="form__label">Phone</label>
+                            <input type="tel" class="form__input" id="phone-m" placeholder="Your phone number:">
+                        </div>
+                        <div class="input__container">
+                            <label for="email-m" class="form__label">Email</label>
+                            <input type="email" class="form__input" id="email-m" placeholder="Your email:">
+                        </div>
+                        <div class="checkbox__container">
+                            <input type="checkbox" name="agreement-m" id="agreement-m" class="checkbox">
+                            <label for="agreement-m" class="checkbox__label">I agree to the processing of personal
+                                data</label>
+                        </div>
+                        <button class="button button-form">Call the measurer</button>
+                    </form>
+                </div>
+                <div class="discount">
+                    <div class="discount__icon"></div>
+                    <p class="discount__text">Help save 10 - 20% of the <br>
+                        cost of materials</p>
+                </div>
+            </div>
+        </section>
+        <section class="fantasies">
+            <div class="container">
+                <div class="fantasies__nav">
+                    <h2 class="fantasies__title">We realize your
+                        wildest fantasies</h2>
+                    <div class="fantasies__radios">
+                        <input type="radio" name="style" id="ac" class="fantasies__radio">
+                        <span><label for="ac" class="fantasies__label">American classic</label></span>
+                        <input type="radio" name="style" id="emp" class="fantasies__radio">
+                        <span> <label for="emp" class="fantasies__label">Empire</label></span>
+                        <input type="radio" name="style" id="cl" class="fantasies__radio">
+                        <span><label for="cl" class="fantasies__label">Classical</label></span>
+                        <input type="radio" name="style" id="loft" class="fantasies__radio">
+                        <span><label for="loft" class="fantasies__label">Loft</label></span>
+                        <input type="radio" name="style" id="mini" class="fantasies__radio">
+                        <span><label for="mini" class="fantasies__label">Minimalism</label></span>
+                        <input type="radio" name="style" id="prov" class="fantasies__radio">
+                        <span><label for="prov" class="fantasies__label">Provence</label></span>
+                        <input type="radio" name="style" id="rom" class="fantasies__radio">
+                        <span><label for="rom" class="fantasies__label">Romanticism</label></span>
+                        <input type="radio" name="style" id="ss" class="fantasies__radio">
+                        <span><label for="ss" class="fantasies__label">Scandinavian style</label></span>
+                        <input type="radio" name="style" id="ms" class="fantasies__radio">
+                        <span><label for="ms" class="fantasies__label">Mediterranean style</label></span>
+                        <input type="radio" name="style" id="ht" class="fantasies__radio">
+                        <span><label for="ht" class="fantasies__label">High tech</label></span>
+                        <input type="radio" name="style" id="ec" class="fantasies__radio">
+                        <span><label for="ec" class="fantasies__label">Eclecticism</label></span>
+                    </div>
+                </div>
+                <div class="fantasies__imgs">
+                    <img src="./img/fantasies-1.png" alt="картинка" class="fantasies__img">
+                    <img src="./img/fantasies-2.png" alt="картинка" class="fantasies__img">
+                    <img src="./img/fantasies-3.png" alt="картинка" class="fantasies__img">
+                    <img src="./img/fantasies-4.png" alt="картинка" class="fantasies__img">
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="clients">
+            <div class="container">
+                <h2 class="clients__title">our clients</h2>
+                <div class="icon">
+                    <div class="line line-small"></div>
+                    <div class="svg hands"></div>
+                    <div class="line line-small"></div>
+                </div>
+                <p class="clients__text">80% of our customers recommend us to their <br>
+                    friends and family.</p>
+                <div class="clients__cards">
+                    <div class="client__card">
+                        <div class="client__info">
+                            <img src="./img/client-1.png" alt="" class="client__img">
+                            <h4 class="client__name">Fedosova Maria <br>
+                                Konstantinovna</h4>
+                        </div>
+                        <div class="client__comment">
+                            <p class="client__text">
+                                I want to thank the guys for their work. We put your shower part in repair. I am very
+                                grateful that I referred to the repair as to my own. Great thanks I express the project
+                                to Georgia for its professionalism and approach.
+                            </p>
+                            <p class="client__text">
+                                The repair process was turned out in terms, faster than anticipated. Team mobile and
+                                professional. Works performed qualitatively without comments. Quality satisfied. Prices
+                                democratic. I recommend these masters.
+                            </p>
+                        </div>
+                        <div class="servise">
+                            <div class="servise__item">
+                                <div class="servise__icon params"></div>
+                                <h4 class="servise__info">40 M2</h4>
+                            </div>
+                            <div class="servise__item">
+                                <div class="servise__icon calendar"></div>
+                                <h4 class="servise__info">48 DAYS</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client__card">
+                        <div class="client__info">
+                            <img src="./img/client-2.png" alt="" class="client__img">
+                            <h4 class="client__name">Afanasyev Sergey <br>
+                                Alexandrovich</h4>
+                        </div>
+                        <div class="client__comment">
+                            <p class="client__text">
+                                I want to thank the guys for their work. We put your shower part in repair. I am very
+                                grateful that I referred to the repair as to my own. Great thanks I express the project
+                                to Georgia for its professionalism and approach.
+                            </p>
+                            <p class="client__text">
+                                The repair process was turned out in terms, faster than anticipated. Team mobile and
+                                professional. Works performed qualitatively without comments. Quality satisfied. Prices
+                                democratic. I recommend these masters.
+                            </p>
+                        </div>
+                        <div class="servise">
+                            <div class="servise__item">
+                                <div class="servise__icon params"></div>
+                                <h4 class="servise__info">90 M2</h4>
+                            </div>
+                            <div class="servise__item">
+                                <div class="servise__icon calendar"></div>
+                                <h4 class="servise__info">128 DAYS</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client__card">
+                        <div class="client__info">
+                            <img src="./img/client-3.png" alt="" class="client__img">
+                            <h4 class="client__name">Kiriev Egor <br>
+                                Leonidovich</h4>
+                        </div>
+                        <div class="client__comment">
+                            <p class="client__text">
+                                I want to thank the guys for their work. We put your shower part in repair. I am very
+                                grateful that I referred to the repair as to my own. Great thanks I express the project
+                                to Georgia for its professionalism and approach.
+                            </p>
+                            <p class="client__text">
+                                The repair process was turned out in terms, faster than anticipated. Team mobile and
+                                professional. Works performed qualitatively without comments. Quality satisfied. Prices
+                                democratic. I recommend these masters.
+                            </p>
+                        </div>
+                        <div class="servise">
+                            <div class="servise__item">
+                                <div class="servise__icon params"></div>
+                                <h4 class="servise__info">56 M2</h4>
+                            </div>
+                            <div class="servise__item">
+                                <div class="servise__icon calendar"></div>
+                                <h4 class="servise__info">86 DAYS</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="orientires">
+            <div class="container">
+                <div class="question">
+                    <h2 class="question__title">have any questions?</h2>
+                    <form action="get" class="form">
+                        <div class="input__container">
+                            <label for="name-q" class="form__label">Name</label>
+                            <input type="text" class="form__input" id="name-q" placeholder="What is your name:">
+                        </div>
+                        <div class="input__container">
+                            <label for="phone-q" class="form__label">Phone</label>
+                            <input type="tel" class="form__input" id="phone-q" placeholder="Your phone number:">
+                        </div>
+                        <div class="input__container">
+                            <label for="question-q" class="form__label">Question</label>
+                            <input type="text" class="form__input" id="question" placeholder="I want to know:">
+                        </div>
+                        <div class="checkbox__container">
+                            <input type="checkbox" name="agreement-q" id="agreement-q" class="checkbox">
+                            <label for="agreement-q" class="checkbox__label">I agree to the processing of personal
+                                data</label>
+                        </div>
+                        <button class="button button-form">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="container">
+                <h2 class="orientires__title">Rostov-on-Don, Nansen St., 239 Shopping Center
+                    Decorum Tel +7 (928) 768 32 29</h2>
+                    <div class="social">
+                        <a href=""><div class="social__item email"></div></a>
+                        <a href=""><div class="social__item ig"></div></a>
+                    </div>
+                    <img src="./img/map.png" alt="" class="map">
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <a href="#">IC "Repair Design Project"</a>
+            </div>
+            <nav class="menu">
+                <a href="#" class="menu__item">HOME</a>
+                <a href="#" class="menu__item">PROJECTS</a>
+                <a href="#" class="menu__item">MEASUREMENT</a>
+                <a href="#" class="menu__item">TEAM</a>
+                <a href="#" class="menu__item">REVIEWS</a>
+                <a href="#" class="menu__item">CONTACTS</a>
+            </nav>
+            <div class="phone__container">
+                <a href="tel:+7 (928) 768-32-39" class="phone__number">+7 (928) 768-32-39</a>
+                <button class="button button-phone">Request a call</button>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
