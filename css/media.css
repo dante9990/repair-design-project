@@ -127,7 +127,7 @@
     }
 
     .video {
-        margin-top: -860px;
+        margin-top: -880px;
     }
 
     .video__title {
@@ -196,6 +196,8 @@
         order: 4;
         padding: 20px 124px;
         margin-top: 62px;
+        width: 340px;
+        border-radius: 0;
     }
     .form__input {
         width: 100%;
@@ -205,7 +207,149 @@
         color: #fff;
     }
     .checkbox__label {
-        color:#fff;
+        color: #fff;
+    }
+    .cards {
+        margin-top: 83px;
+    }
+
+    .cards__container {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-bottom: 60px;
+    }
+
+    .card:last-child {
+        margin-bottom: 0;
+    }
+
+    .card__img {
+        width: 340px;
+        height: 365px;
+    }
+
+    .list__container {
+        width: 270px;
+        align-self: flex-start;
+        padding: 21px 41px 37px 31px;
+    }
+
+    .card__price {
+        margin-left: 0;
+        padding: 11px 19px;
+    }
+
+    .measurer {
+        display: none;
+    }
+
+    .fantasies {
+        display: none;
+    }
+
+    .clients {
+        display: none;
+    }
+
+    .fantasies__slider {
+        display: block;
+        margin-bottom: -20px;
+    }
+
+    .fantasies__slider .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fantasies__title {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .fantasies__slide__img {
+        width: 340px;
+        height: 242px;
+    }
+
+    .fantasies__slide {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fantasies__arrows {
+        display: flex;
+        justify-content: space-between;
+        width: 313px;
+        margin-top: -130px;
+    }
+
+    .orientires {
+        background-image: none;
+        background-color: #181818;
+        padding-bottom: 50px;
+    }
+
+    .question {
+        margin-top: 173px;
+    }
+
+    .question .form {
+        width: 340px;
+        margin: 52px 17px 46px 17px;
+    }
+
+    .question .form__input {
+        margin-bottom: 63px;
+    }
+
+    .question #question {
+        width: 340px;
+        margin-bottom: 0;
+    }
+
+    .question .checkbox__container {
+        width: 340px;
+        justify-content: start;
+        margin-bottom: 67px;
+    }
+
+    .orientires__title {
+        width: 340px;
+        font-size: 18px;
+        order: 2;
+        margin-top: 42px;
+    }
+
+    .social {
+        order: 3;
+        width: 99px;
+    }
+
+    .social__item {
+        width: 39px;
+        height: 39px;
+    }
+
+    .email,
+    .ig {
+        background-size: 50% 50%;
+    }
+
+    .map {
+        order: 1;
+        width: 340px;
+        height: 255px;
+        margin-top: 46px;
+    }
+
+    .footer {
+        display: none;
     }
 }
 
