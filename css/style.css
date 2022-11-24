@@ -207,12 +207,18 @@ h4 {
     line-height: 27px;
 }
 
-.slide__char {
-    display: grid;
+.slide__char-container {
+    display: none;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 76px);
     grid-row-gap: 34px;
     margin-top: 42px;
+}
+
+.slide__char-container.active {
+    display: grid;
+    background: #131313;
+
 }
 
 .slide__char__item {
@@ -244,24 +250,52 @@ h4 {
     padding-bottom: 7px;
 }
 
-.slide__img {
-    width: 679px;
-    height: 482px;
+.slider__container-img {
     margin-top: 45px;
 }
 
-a .slide__list__title {
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.3);
+.slide__img {
+    width: 679px;
+    height: 482px;
+    display: none;
 }
 
-.slide__list__item:hover {
+.slide__img.active {
+    display: block;
+}
+
+.slide__list__title {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    padding-bottom: 6px;
+}
+
+.slide__list__title.active {
+    color: #e3b873;
+    background: #131313;
     border-bottom: 1px solid #e3b873;
 }
 
-.slide__list__item:hover .slide__list__title {
+.slide__list__title:hover {
+    color: #e3b873;
+    border-bottom: 1px solid #e3b873;
+}
+
+/* .slide__list__item:hover {
+    border-bottom: 1px solid #e3b873;
+    cursor: pointer;
+} */
+
+/* .slide__list__item:hover .slide__list__title {
     color: #e3b873;
 }
+
+.slide__list__item.active {
+    border-bottom: 1px solid #e3b873;
+    color: #e3b873;
+    background: #131313;
+} */
 
 .slider__nav {
     width: 205px;
@@ -286,17 +320,13 @@ a .slide__list__title {
     background: url("../img/arrow-right.svg") no-repeat center;
 }
 
-.radio__container {
+.dot__container {
     width: 64px;
     display: flex;
     justify-content: space-between;
 }
 
-.slider__radio {
-    display: none;
-}
-
-.slider__label {
+.dot {
     cursor: pointer;
     display: inline-block;
     width: 10px;
@@ -305,8 +335,11 @@ a .slide__list__title {
     border-radius: 50%;
 }
 
-.slider__label:hover,
-.slider__radio:checked + .slider__label {
+.dot:hover {
+    background: rgba(255, 255, 255);
+}
+
+.active {
     background: rgba(255, 255, 255);
 }
 
@@ -963,7 +996,7 @@ a .slide__list__title {
 /* orientires */
 
 .orientires {
-    background: url('../img/orientires-bg.png') no-repeat center;
+    background: url("../img/orientires-bg.png") no-repeat center;
     background-size: cover;
 }
 
@@ -995,11 +1028,11 @@ a .slide__list__title {
 }
 
 .email {
-    background: #e3b873 url('../img/email.svg') no-repeat center;
+    background: #e3b873 url("../img/email.svg") no-repeat center;
 }
 
 .ig {
-    background: #e3b873 url('../img/ig.svg') no-repeat center;
+    background: #e3b873 url("../img/ig.svg") no-repeat center;
 }
 
 .map {
