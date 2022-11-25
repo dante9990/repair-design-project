@@ -282,21 +282,6 @@ h4 {
     border-bottom: 1px solid #e3b873;
 }
 
-/* .slide__list__item:hover {
-    border-bottom: 1px solid #e3b873;
-    cursor: pointer;
-} */
-
-/* .slide__list__item:hover .slide__list__title {
-    color: #e3b873;
-}
-
-.slide__list__item.active {
-    border-bottom: 1px solid #e3b873;
-    color: #e3b873;
-    background: #131313;
-} */
-
 .slider__nav {
     width: 205px;
     display: flex;
